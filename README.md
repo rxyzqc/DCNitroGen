@@ -5,4 +5,4 @@
 * License authentication
 * Fast (Boosted with AI)
 
-![Screenshot 2023-05-04 191557](https://user-images.githubusercontent.com/120246386/236263077-77f6362b-4d65-4ffa-bccf-4de67be58626.png)
+![image](https://user-images.githubusercontent.com/120246386/236279360-6adfeddc-209d-4159-a24b-4970b4d30885.png)
