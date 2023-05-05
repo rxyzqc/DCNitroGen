@@ -1,6 +1,6 @@
 # Want to purchase? Discord: batu_#8844
 + License authentification
-+ Enter an amount to gen
++ Enter an amount to gen and thread count
 + Show progress in title as % and current_amount/total_amount
 + Save to file {amount}.txt as url + code
 + Calculate start time + end time
