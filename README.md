@@ -6,4 +6,4 @@
 + Calculate start time + end time
 + Fast + Threaded (Boosted with AI)
 
-![image](https://user-images.githubusercontent.com/120246386/236528346-b8d4b580-aae6-47ba-83bd-ffabb96bc2c0.png)
+![image](https://user-images.githubusercontent.com/120246386/236534929-d15a8ad4-f321-454b-8ec4-b5eb73151ff7.png)
