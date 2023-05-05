@@ -1,4 +1,4 @@
-# DCNitroGen
+# Want to purchase? Discord: batu_#8844
 + License authentification
 + You give amount at it starts to gen
 + Show progress in title as % and current_amount/total_amount
