@@ -1,4 +1,4 @@
-# 900k in 3 second
+# 1M in 4 second
 + License authentification
 + Enter an amount to gen
 + Show progress in title as % and current_amount/total_amount
