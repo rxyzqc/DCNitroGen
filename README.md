@@ -1,6 +1,6 @@
 # 900k in 3 second
 + License authentification
-+ Enter an amount to gen and thread count
++ Enter an amount to gen
 + Show progress in title as % and current_amount/total_amount
 + Save to file {amount}.txt as url + code
 + Calculate start time - end time
