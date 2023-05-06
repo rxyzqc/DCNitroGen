@@ -7,6 +7,6 @@
 + Fast + Threaded (Boosted with AI)
 
 # Version 1.1
-![image](https://user-images.githubusercontent.com/120246386/236606318-5e60e486-1a1b-4d4e-837d-cc7f8a8fd577.png)
+![image](https://user-images.githubusercontent.com/120246386/236617955-c5254330-7da8-42be-bf96-a6b9b960bcd3.png)
 
 Discord: batu_#8844
