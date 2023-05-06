@@ -1,4 +1,4 @@
-# Nitro Gen
+# Nitro Gen 900k in 3 second
 + License authentification
 + Enter an amount to gen and thread count
 + Show progress in title as % and current_amount/total_amount
@@ -8,4 +8,4 @@
 
 Discord batu_#8844
 
-![image](https://user-images.githubusercontent.com/120246386/236534929-d15a8ad4-f321-454b-8ec4-b5eb73151ff7.png)
+![image](https://user-images.githubusercontent.com/120246386/236606318-5e60e486-1a1b-4d4e-837d-cc7f8a8fd577.png)
