@@ -1,4 +1,4 @@
-# 1M in 1.84 seconds
+# 1M in 1.66 seconds
 + Save to file {amount}-{suffix}.txt as url + code
 + Calculate: start time - end time = gen + save time
 + Fast + Threaded
