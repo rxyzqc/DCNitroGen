@@ -1,1 +1,1 @@
-![image](https://github.com/rxyzqc/Gen/assets/120246386/61c2e915-15f9-4b57-b9cd-ff6d987893da)
+![image](https://github.com/rxyzqc/Gen/assets/120246386/c342c9c2-55e7-4408-96fd-c521a34c0476)
