@@ -31,7 +31,7 @@ else:
 
 print('')
 
-lock = threading.Lock()  # Lock for thread-safe writing to file
+lock = threading.Lock()
 
 
 def check_code(code, proxy):
@@ -48,19 +48,25 @@ def check_code(code, proxy):
         r = requests.get(code_url, proxies=proxy_config, timeout=10)
         rs = r.status_code
 
-        with lock:  # Acquire lock before writing to file
-            if rs == 200:
+        if rs == 200:
+            with lock:
                 print(f"\033[32mValid\033[0m \033[34m|\033[0m {code} \033[34m|\033[0m {proxy}")
                 with open("valid_codes.txt", "a") as f:
                     f.write(url + code + "\n")
-            elif rs == 404:
-                print(f"\033[31mInvalid\033[0m \033[34m|\033[0m {code} \033[34m|\033[0m {proxy}")
-            elif rs == 429:
-                print(f"\033[93mTimeout\033[0m \033[34m|\033[0m {code} \033[34m|\033[0m {proxy}")
-            else:
-                print(f"\033[35mError\033[0m \033[34m|\033[0m {code} \033[34m|\033[0m {proxy}")
-    except requests.RequestException:
-        print(f"\033[35mError\033[0m   \033[34m|\033[0m {code} \033[34m|\033[0m {proxy}")
+        elif rs == 404:
+            print(f"\033[31mInvalid\033[0m \033[34m|\033[0m {code} \033[34m|\033[0m {proxy}")
+        elif rs == 429:
+            print(f"\033[93mTimeout\033[0m \033[34m|\033[0m {code} \033[34m|\033[0m {proxy}")
+        elif rs == 500:
+            print("Internal Server Error")
+        elif rs == 400:
+            print("Bad Request")
+        else:
+            print(f"\033[35mError\033[0m \033[34m|\033[0m {code} \033[34m|\033[0m {proxy}")
+
+    except requests.RequestException as e:
+        # print(f"\033[35mError\033[0m   \033[34m|\033[0m {code} \033[34m|\033[0m {proxy}")
+        pass
 
 
 def main():
