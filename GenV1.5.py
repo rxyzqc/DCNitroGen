@@ -50,7 +50,7 @@ def check_code(code, proxy):
 
         if rs == 200:
             with lock:
-                print(f"\033[32mValid\033[0m \033[34m|\033[0m {code} \033[34m|\033[0m {proxy}")
+                print(f"\033[32mValid\033[0m   \033[34m|\033[0m {code} \033[34m|\033[0m {proxy}")
                 with open("valid_codes.txt", "a") as f:
                     f.write(url + code + "\n")
         elif rs == 404:
@@ -64,7 +64,7 @@ def check_code(code, proxy):
         else:
             print(f"\033[35mError\033[0m \033[34m|\033[0m {code} \033[34m|\033[0m {proxy}")
 
-    except requests.RequestException as e:
+    except requests.RequestException:
         # print(f"\033[35mError\033[0m   \033[34m|\033[0m {code} \033[34m|\033[0m {proxy}")
         pass
 
