@@ -7,7 +7,6 @@ https://api.proxyscrape.com/v2/?request=getproxies&protocol=http&timeout=10000&c
 https://api.proxyscrape.com/?request=displayproxies&proxytype=http
 https://api.openproxylist.xyz/http.txt
 http://alexa.lr2b.com/proxylist.txt
-https://multiproxy.org/txt_all/proxy.txt
 https://proxyspace.pro/http.txt
 https://proxyspace.pro/https.txt
 https://raw.githubusercontent.com/B4RC0DE-TM/proxy-list/main/HTTP.txt
