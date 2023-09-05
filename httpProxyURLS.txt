@@ -2,7 +2,6 @@ http://rootjazz.com/proxies/proxies.txt
 http://spys.me/proxy.txt
 https://sheesh.rip/http.txt
 http://worm.rip/http.txt
-https://www.proxy-list.download/api/v1/get?type=http
 https://api.proxyscrape.com/v2/?request=getproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all&simplified=true
 https://api.proxyscrape.com/?request=displayproxies&proxytype=http
 https://api.openproxylist.xyz/http.txt
