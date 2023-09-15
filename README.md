@@ -1,4 +1,4 @@
-Executeable: https://github.com/rxyzqc/NitroGen/releases/download/V1.6/GenV1.6.exe
+# Executeable: https://github.com/rxyzqc/NitroGen/releases/download/V1.6/GenV1.6.exe
 
 ![image](https://github.com/rxyzqc/NitroGen/assets/120246386/cc9d7ed9-c70a-491c-a4e9-37ab76f39f73)
 
