@@ -1,3 +1,6 @@
+# New version ->
+https://github.com/Bt08s/Discord-Nitro-Generator
+
 # Executeable
 https://github.com/rxyzqc/NitroGen/releases/download/V1.6/GenV1.6.exe
 
