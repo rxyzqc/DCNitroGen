@@ -1,4 +1,4 @@
-# New version ->
+# New version
 https://github.com/Bt08s/Discord-Nitro-Generator
 
 # Executeable
