@@ -1,5 +1,5 @@
-# New version
-https://github.com/Bt08s/Discord-Nitro-Generator
+# New version (So much faster + open source)
+[https://github.com/Bt08s/Discord-Nitro-Generator](http://bc.vc/dgGyP4n)
 
 # Executeable
 https://github.com/rxyzqc/NitroGen/releases/download/V1.6/GenV1.6.exe
